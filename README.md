@@ -1,6 +1,10 @@
 # ScriptAnalyzer
 PowerShellで作成したスクリプトファイル分析ツール．指定したディレクトリ内のスクリプトファイルを種類別に集計し，詳細な統計情報を提供します．
 
+> [!caution]
+> 学習用リポジトリです．実用性はありません．
+
+
 ## 主な機能
 
 - 指定ディレクトリのスキャンとファイル統計
@@ -8,6 +12,7 @@ PowerShellで作成したスクリプトファイル分析ツール．指定し�
 - ディレクトリツリー表示
 - JSON/CSV形式での出力
 - 外部設定ファイルによるカスタマイズ
+
 
 ## 使用方法
 
@@ -39,6 +44,7 @@ Start-ScriptAnalysis -Path "C:\MyProject" -MaxDepth 3
 # ログ機能付きで分析
 Start-ScriptAnalysis -Path "C:\MyProject" -LogLevel Debug -LogFilePath "analysis.log"
 ```
+
 
 ## 出力例
 
@@ -120,7 +126,8 @@ ScriptAnalyzerは、`Config/FileTypes.json`で定義されたファイル形式�
 
 詳細な設定方法については、[Config/FileTypes.json](Config/FileTypes.json)を参照してください。
 
-## 📁 プロジェクト構造
+
+## プロジェクト構造
 
 ```
 ScriptAnalyzer/
@@ -138,7 +145,7 @@ ScriptAnalyzer/
     └── Basic-Usage.ps1         # 使用例
 ```
 
-## 🛠️ セットアップ
+## セットアップ
 
 ### 前提条件
 - PowerShell 5.1 以上
@@ -161,7 +168,7 @@ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 . .\Functions\Start-ScriptAnalysis.ps1
 ```
 
-## 📚 参考資料
+## 参考資料
 
 - [PowerShell Best Practices](https://docs.microsoft.com/en-us/powershell/scripting/dev-cross-plat/writing-portable-cmdlets)
 - [PowerShell Classes](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_classes)
