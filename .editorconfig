@@ -1,0 +1,36 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+# PowerShell files
+[*.ps1]
+indent_size = 4
+# PowerShellの推奨設定
+# 行の最大長（PSScriptAnalyzerの推奨値）
+max_line_length = 120
+# PowerShellの構文ハイライト用
+block_comment_start = <#
+block_comment_end = #>
+
+# PowerShell module manifest
+[*.psd1]
+indent_size = 4
+
+# PowerShell help files
+[*.psm1]
+indent_size = 4
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off

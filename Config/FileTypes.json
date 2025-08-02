@@ -1,0 +1,243 @@
+{
+    "_comment": "ScriptAnalyzer File Types Configuration",
+    "_description": "This file defines the supported file extensions and their metadata for ScriptAnalyzer.",
+    "_usage": "Add new file types by adding entries to supportedExtensions with language, category, and description properties.",
+    "_categories": "Available categories: Script, Source Code, Web, Shader, Configuration, Database, Game",
+    "supportedExtensions": {
+        ".ps1": {
+            "language": "PowerShell",
+            "category": "Script",
+            "description": "PowerShell script"
+        },
+        ".py": {
+            "language": "Python",
+            "category": "Script",
+            "description": "Python script"
+        },
+        ".js": {
+            "language": "JavaScript",
+            "category": "Web",
+            "description": "JavaScript file"
+        },
+        ".ts": {
+            "language": "TypeScript",
+            "category": "Web",
+            "description": "TypeScript file"
+        },
+        ".lua": {
+            "language": "Lua",
+            "category": "Script",
+            "description": "Lua script"
+        },
+        ".rb": {
+            "language": "Ruby",
+            "category": "Script",
+            "description": "Ruby script"
+        },
+        ".pl": {
+            "language": "Perl",
+            "category": "Script",
+            "description": "Perl script"
+        },
+        ".php": {
+            "language": "PHP",
+            "category": "Web",
+            "description": "PHP script"
+        },
+        ".cs": {
+            "language": "C#",
+            "category": "Source Code",
+            "description": "C# source code"
+        },
+        ".cpp": {
+            "language": "C++",
+            "category": "Source Code",
+            "description": "C++ source code"
+        },
+        ".cxx": {
+            "language": "C++",
+            "category": "Source Code",
+            "description": "C++ source code"
+        },
+        ".cc": {
+            "language": "C++",
+            "category": "Source Code",
+            "description": "C++ source code"
+        },
+        ".c": {
+            "language": "C",
+            "category": "Source Code",
+            "description": "C source code"
+        },
+        ".h": {
+            "language": "C/C++ Header",
+            "category": "Source Code",
+            "description": "C/C++ header file"
+        },
+        ".hpp": {
+            "language": "C++ Header",
+            "category": "Source Code",
+            "description": "C++ header file"
+        },
+        ".java": {
+            "language": "Java",
+            "category": "Source Code",
+            "description": "Java source code"
+        },
+        ".swift": {
+            "language": "Swift",
+            "category": "Source Code",
+            "description": "Swift source code"
+        },
+        ".kt": {
+            "language": "Kotlin",
+            "category": "Source Code",
+            "description": "Kotlin source code"
+        },
+        ".rs": {
+            "language": "Rust",
+            "category": "Source Code",
+            "description": "Rust source code"
+        },
+        ".go": {
+            "language": "Go",
+            "category": "Source Code",
+            "description": "Go source code"
+        },
+        ".html": {
+            "language": "HTML",
+            "category": "Web",
+            "description": "HTML file"
+        },
+        ".htm": {
+            "language": "HTML",
+            "category": "Web",
+            "description": "HTML file"
+        },
+        ".css": {
+            "language": "CSS",
+            "category": "Web",
+            "description": "CSS file"
+        },
+        ".scss": {
+            "language": "SASS",
+            "category": "Web",
+            "description": "SASS file"
+        },
+        ".less": {
+            "language": "LESS",
+            "category": "Web",
+            "description": "LESS file"
+        },
+        ".bat": {
+            "language": "Batch",
+            "category": "Script",
+            "description": "Windows batch file"
+        },
+        ".cmd": {
+            "language": "Command",
+            "category": "Script",
+            "description": "Windows command file"
+        },
+        ".sh": {
+            "language": "Shell Script",
+            "category": "Script",
+            "description": "Shell script"
+        },
+        ".bash": {
+            "language": "Bash",
+            "category": "Script",
+            "description": "Bash script"
+        },
+        ".zsh": {
+            "language": "Zsh",
+            "category": "Script",
+            "description": "Zsh script"
+        },
+        ".fish": {
+            "language": "Fish",
+            "category": "Script",
+            "description": "Fish script"
+        },
+        ".shader": {
+            "language": "Unity Shader",
+            "category": "Shader",
+            "description": "Unity shader file"
+        },
+        ".cginc": {
+            "language": "CG Include",
+            "category": "Shader",
+            "description": "CG include file"
+        },
+        ".hlsl": {
+            "language": "HLSL",
+            "category": "Shader",
+            "description": "HLSL shader file"
+        },
+        ".glsl": {
+            "language": "GLSL",
+            "category": "Shader",
+            "description": "GLSL shader file"
+        },
+        ".json": {
+            "language": "JSON",
+            "category": "Configuration",
+            "description": "JSON configuration file"
+        },
+        ".xml": {
+            "language": "XML",
+            "category": "Configuration",
+            "description": "XML file"
+        },
+        ".yaml": {
+            "language": "YAML",
+            "category": "Configuration",
+            "description": "YAML file"
+        },
+        ".yml": {
+            "language": "YAML",
+            "category": "Configuration",
+            "description": "YAML file"
+        },
+        ".toml": {
+            "language": "TOML",
+            "category": "Configuration",
+            "description": "TOML configuration file"
+        },
+        ".ini": {
+            "language": "INI",
+            "category": "Configuration",
+            "description": "INI configuration file"
+        },
+        ".sql": {
+            "language": "SQL",
+            "category": "Database",
+            "description": "SQL script"
+        },
+        ".vbs": {
+            "language": "VBScript",
+            "category": "Script",
+            "description": "VBScript file"
+        },
+        ".asm": {
+            "language": "Assembly",
+            "category": "Source Code",
+            "description": "Assembly source code"
+        }
+    },
+    "defaultExcludePatterns": [
+        "*.tmp",
+        "*.log",
+        "*.bak",
+        "*~",
+        ".git",
+        ".svn",
+        "node_modules",
+        "__pycache__",
+        "*.pyc",
+        "bin",
+        "obj",
+        ".vs",
+        ".vscode"
+    ]
+}
